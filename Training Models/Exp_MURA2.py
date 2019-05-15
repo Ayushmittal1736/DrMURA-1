@@ -1,8 +1,8 @@
 from google.colab import drive
 drive.mount("/content/gdrive/", force_remount=True)
-""" !ls
-""" %cd /content/gdrive/My Drive/MURA/train/WRIST
-""" !ls
+# !ls
+# %cd /content/gdrive/My Drive/MURA/train/WRIST
+# !ls
 from keras.models import Sequential, load_model
 from keras.models import Model
 from keras.layers import Conv2D, MaxPool2D,  \
